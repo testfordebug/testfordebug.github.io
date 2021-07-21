@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script language="c++" src="main.cpp"></script>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<script>
+document.addEventListener ('keydown', function (event){ 
+    console.log (event.which); 
+});  
+ 
+var evt = new KeyboardEvent('keydown', {'keyCode':65, 'which':65}; 
+document.dispatchEvent (evt);
+</script>
 </body>
 </html>
